@@ -297,4 +297,12 @@
                 searchInput.focus();
                 searchInput.select();
             }
-            if (e.key === 'Escape' && document.act
+            if (e.key === 'Escape' && document.activeElement === searchInput) {
+                clearSearch();
+            }
+        });
+    }
+    
+    // Start the app
+    init();
+})();
