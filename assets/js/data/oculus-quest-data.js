@@ -2,7 +2,7 @@
 //  Gorilla Tag Depot — Oculus Quest Data
 // ============================================
 
-const oculusQuestData = [
+window.oculusQuestData = [
     { year: 2026, name: "v1.1.134", date: "Apr 15", desc: "Build 589", id: "25804787785862225", branch: "public" },
     { year: 2026, name: "v1.1.134", date: "Apr 08", desc: "Build 586", id: "25739090509098620", branch: "public" },
     { year: 2026, name: "v1.1.134", date: "Apr 07", desc: "Build 582", id: "25719631677711170", branch: "public" },

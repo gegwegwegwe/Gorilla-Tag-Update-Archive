@@ -2,7 +2,7 @@
 //  Gorilla Tag Depot — Steam Build Data
 // ============================================
 
-const steamData = [
+window.steamData = [
     // 2026
     { year: 2026, name: "Public Patch", date: "Apr 11", desc: "Latest stability update.", id: "9039694724168908103", branch: "public" },
     { year: 2026, name: "Public Patch", date: "Apr 04", desc: "Post-Spring maintenance build.", id: "3851298727232795171", branch: "public" },
